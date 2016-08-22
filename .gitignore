@@ -18,7 +18,9 @@
 x64/
 x86/
 bld/
-[Bb]in/
+#[Bb]in/
+# need the DLLs for AppHarbor, but not the .exe's:
+*.exe
 [Oo]bj/
 [Ll]og/
 
