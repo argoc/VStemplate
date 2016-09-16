@@ -21,6 +21,8 @@ bld/
 #[Bb]in/
 # need the DLLs for AppHarbor, but not the .exe's:
 *.exe
+# do need roslyn/csc.exe:
+!Bin/roslyn/csc.exe
 [Oo]bj/
 [Ll]og/
 
